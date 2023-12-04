@@ -1,0 +1,31 @@
+/* 
+Border Style Type
+---
+1 => solid
+2 => double
+3 => groove
+4 => ridges
+5 => inset
+6 => outset
+---
+Usa a individual border site shorthand 
+1 => border-left: 2px solid #000;
+2 => border-right: 2px solid #000;
+3 => border-top: 2px solid #000;
+3 => border-bottom: 2px solid #000;
+ */
+h1 {
+  /* border-style: outset;
+  border-width: 10px;
+  border-color: aqua; */
+
+  /* border shorthand */
+  /* border: 3px solid green;
+  padding: 10px;
+  border-radius: 3px; */
+}
+
+h1 {
+  border-left: 2px solid yellowgreen;
+  border-bottom: 2px solid yellowgreen;
+}
